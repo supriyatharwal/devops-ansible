@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "gagan-import"
 
   tags = {
-    Name = "Gagan-DevOps-Zensar2-batch2-server"
+    Name = "Gagan-DevOps-server"
     env = "production"
     owner = "Gagandeep"
   }
